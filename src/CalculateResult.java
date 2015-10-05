@@ -39,7 +39,7 @@ Integer size=(Integer)sc.getAttribute("bankSize");
 int passingScore= (int)(0.60*size);
 
 if (scoree >= passingScore) {
-	out.println("<h2> Congratulations!!!</h2>");
+	out.println("<h2> Congratulations!!!</h2>"+scoree);
 	double percentage = 100 * scoree/ size;
 	out.println("<h3> YOU GOT&nbsp" + percentage + "!!</h3>");
 	
